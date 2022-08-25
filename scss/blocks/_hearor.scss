@@ -1,0 +1,136 @@
+.hearor{
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    background-color: #191919;
+    &__left{
+        margin-top: 150px;
+    }
+    &__img{
+        width: 700px;
+        height: 700px;
+        background-image: url(/images/hearorimg.svg);
+    }
+    h3{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 10px;
+text-transform: uppercase;
+opacity: 0.5;
+color: white;
+    }
+    h1{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 58px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: white;
+width: 377px;
+height: 116px;
+    }
+    p{
+        margin-top: 100px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: white;
+opacity: 0.75;
+width: 349px;
+height: 75px;
+    }
+    &__btn{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 18px;
+background-color: #FBAF85;
+color: white;
+border: none;
+width: 160px;
+height: 48px;
+margin-top: 40px;
+    }
+}
+@media screen and (max-width:768px){
+    .hearor{
+        width: 768px;
+        &__left{
+            position: absolute;
+            width: 300px;
+            margin-top: 50px;
+            z-index: 1;
+            margin-top: 170px;
+            text-align: center;
+        }
+        h3{
+            margin-left: 90px;
+width: 199px;
+height: 19px;
+        }
+        h1{
+            width: 377px;
+            height: 116px;
+        }
+        p{
+            width: 349px;
+            height: 75px;
+        }
+        &__img{
+            position: relative;
+            width: 768px;
+           height: 768px;
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .hearor{
+        width: 375px;
+        &__left{
+            position: absolute;
+            width: 300px;
+            margin-top: 0px;
+            z-index: 1;
+            margin-top: 170px;
+            text-align: center;
+        }
+        h3{
+            margin-left: 50px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+            letter-spacing: 10px;
+        }
+        h1{
+            margin-left: -30px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+        }
+        p{
+            width: 328px;
+            height: 75px;
+            margin-top: 0px;
+        }
+        &__img{
+            position: relative;
+            margin-top: -135px;
+            width: 365px;
+            background-repeat: no-repeat;
+            background-position-x:center;
+            background-position-y: center;
+            background-size: 500px 500px;
+            margin-bottom: 30px;
+        }
+    }
+}

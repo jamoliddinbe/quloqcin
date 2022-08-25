@@ -1,0 +1,115 @@
+.bringing{
+    width: 1110px;
+    height: 588px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    img{
+        border-radius: 8px;
+    }
+    &__left{
+        margin-top: 150px;
+        width: 50%;
+        h1{
+            width: 445px;
+     
+            font-weight: 700;
+font-size: 40px;
+line-height: 44px;
+color: #000000;
+        }
+        span{
+            color: #D87D4A;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+        }
+        p{
+            width: 445px;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+opacity: 0.5;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .bringing{
+        width:627px;
+        display: flex;
+ flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        img{
+            width: 689px;
+            height: 300px;
+          margin-left: -100px;
+        }
+        &__left{
+            margin-top: 50px;
+            width: 50%;
+            h1{
+                width: 573px;
+                font-size: 40px;
+                line-height: 44px;    
+                text-align: center;
+                letter-spacing: 1.42857px;
+                text-transform: uppercase;
+            }
+            span{
+                color: #D87D4A;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 44px;
+            }
+            p{
+                text-align: center;
+                width: 573px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+            }
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .bringing{
+        width:327px;
+        display: flex;
+ flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        img{
+            width: 327px;
+            height: 300px;
+          margin-left: 0px;
+        }
+        &__left{
+            margin-top: 50px;
+            width: 50%;
+            h1{
+                width: 327px;
+                font-size: 40px;
+                line-height: 44px;    
+                text-align: center;
+                letter-spacing: 1.42857px;
+                text-transform: uppercase;
+            }
+            span{
+                color: #D87D4A;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 44px;
+            }
+            p{
+                text-align: center;
+                width: 327px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+            }
+        }
+    }
+}

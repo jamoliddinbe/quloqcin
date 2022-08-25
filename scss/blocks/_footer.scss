@@ -1,0 +1,113 @@
+.footer{
+    width: 1440px;
+    background-color: black;
+  padding-bottom: 50px;
+    &__top{
+        display: flex;
+      padding-top: 50px;
+      align-items: center;
+        justify-content: space-around;
+        ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+        }
+        a:hover{
+            color: #D87D4A;
+        }
+    }
+    &__middle{
+        display: flex;
+        justify-content: space-around;
+        p{
+            color: white;
+            opacity: 0.5;
+            width: 540px;
+            height: 100px;
+        }
+        ul{
+            display: flex;
+            align-items: flex-end;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            margin-right: 30px;
+        }
+    }
+    &__content{
+        color: white;
+        opacity: 0.5;
+        margin-left: 175px;
+    }
+}
+@media screen and (max-width:768px){
+    .footer{
+        width: 768px;
+        margin-top: 100px;
+       
+        &__top{  
+            display: flex;
+            justify-content: flex-start;
+           flex-direction: column;
+       
+        }
+        &__middle{
+            p{
+                width: 589px;
+            }
+            ul{
+                margin-left: -50px;
+            }
+        }
+        &__content{
+            margin-left: 0;
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .footer{
+        width: 375px;
+        margin-top: 250px;
+       
+        &__top{  
+            display: flex;
+            justify-content: flex-start;
+           flex-direction: column;
+           img{
+            margin-bottom: 30px;
+           }
+           ul{
+            flex-direction: column;
+           }
+           li{
+            margin-bottom: 10px;
+            font-size: 13px;
+line-height: 25px;
+        }
+        }
+        &__middle{
+            flex-direction: column;
+            margin-left: 30px;
+            text-align: center;
+            p{
+                width: 320px;
+                height: 150px;
+            }
+            ul{
+                margin-left: 50px;
+            }
+        }
+        &__content{
+          text-align: center;
+        }
+    }
+}

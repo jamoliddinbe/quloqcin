@@ -1,0 +1,88 @@
+.kalonka2{
+    width: 1110px;
+    height: 320px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url(/images/kalonka2img.svg);
+    &__box{
+        padding-top: 80px;
+        padding-left: 100px;
+        h1{
+            margin-bottom: 50px;
+font-weight: 700;
+font-size: 28px;
+line-height: 38px;
+letter-spacing: 2px;
+        }
+        button{
+            width: 160px;
+            height: 48px;
+            background-color: #000000;
+            color: white;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 18px;
+            border: none;
+        }
+    }
+}
+@media screen and (max-width:768px){
+    .kalonka2{
+        width: 689px;
+        background-position-x: center;
+        background-position-y:center ;
+        &__box{
+            padding-top: 80px;
+            padding-left: 60px;
+            h1{
+                margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+            }
+            button{
+                width: 160px;
+                height: 48px;
+                background-color: #dddddd;
+                color: black;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 18px;
+                letter-spacing: 1px;
+        border: 1px solid #000000;
+            }
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .kalonka2{
+        width: 360px;
+        background-size: 500px 600px;
+        background-position-x: left;
+        background-position-y:center ;
+        &__box{
+            padding-top: 40px;
+            padding-left: 30px;
+            h1{
+                margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+            }
+            button{
+                width: 160px;
+                height: 48px;
+                background-color: #dddddd;
+                color: black;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 18px;
+                letter-spacing: 1px;
+        border: 1px solid #000000;
+            }
+        }
+    }
+}
